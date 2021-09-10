@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.logo h2 {
+    font-family: 'Dancing Script', cursive;
+}
+
+.showcase {
+    height: 100vh;
+    background: url('./assets/img1.jpg') no-repeat center/ cover;
+}
+
+.showcase .overlay { 
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.514);  
+}
